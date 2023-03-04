@@ -1307,6 +1307,23 @@
     memoizerific "^1.11.3"
     ts-dedent "^2.0.0"
 
+"@storybook/addon-controls@7.0.0-beta.20":
+  version "7.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-controls/-/addon-controls-7.0.0-beta.20.tgz#a6235fdfbe37fcdf1d181416bc3214e69e7bab3a"
+  integrity sha512-XY6SZHVHlwUt8yPD6mqgiK6dt2QnihKM4gdz4sFI9bbbL87sYL2MYSlDrwf7+Qvqxc+fBe3CWc30IhW2MJrlzQ==
+  dependencies:
+    "@storybook/blocks" "7.0.0-beta.20"
+    "@storybook/client-logger" "7.0.0-beta.20"
+    "@storybook/components" "7.0.0-beta.20"
+    "@storybook/core-common" "7.0.0-beta.20"
+    "@storybook/manager-api" "7.0.0-beta.20"
+    "@storybook/node-logger" "7.0.0-beta.20"
+    "@storybook/preview-api" "7.0.0-beta.8"
+    "@storybook/theming" "7.0.0-beta.20"
+    "@storybook/types" "7.0.0-beta.20"
+    lodash "^4.17.21"
+    ts-dedent "^2.0.0"
+
 "@storybook/addon-controls@7.0.0-beta.26":
   version "7.0.0-beta.26"
   resolved "https://registry.yarnpkg.com/@storybook/addon-controls/-/addon-controls-7.0.0-beta.26.tgz#3fef025f3d790465c8d22fbf85ec6b5c21cef2f7"
@@ -1504,6 +1521,33 @@
     regenerator-runtime "^0.13.7"
     store2 "^2.12.0"
     telejson "^6.0.8"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/blocks@7.0.0-beta.20":
+  version "7.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/@storybook/blocks/-/blocks-7.0.0-beta.20.tgz#01c2afc923caae1c079d81a137562d26ee84e1fa"
+  integrity sha512-oMfaqs42hwy6OQ2OPbcl8jyzmVwWWXPp4+OtkcRnfhj0b/K+MB6Wo2UOy2YYXOrSjdJi6vnnKqpkRHYVXBI0rA==
+  dependencies:
+    "@storybook/channels" "7.0.0-beta.20"
+    "@storybook/client-logger" "7.0.0-beta.20"
+    "@storybook/components" "7.0.0-beta.20"
+    "@storybook/core-events" "7.0.0-beta.20"
+    "@storybook/csf" next
+    "@storybook/docs-tools" "7.0.0-beta.20"
+    "@storybook/global" "^5.0.0"
+    "@storybook/manager-api" "7.0.0-beta.20"
+    "@storybook/preview-api" "7.0.0-beta.20"
+    "@storybook/theming" "7.0.0-beta.20"
+    "@storybook/types" "7.0.0-beta.20"
+    "@types/lodash" "^4.14.167"
+    color-convert "^2.0.1"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    markdown-to-jsx "^7.1.3"
+    memoizerific "^1.11.3"
+    polished "^4.2.2"
+    react-colorful "^5.1.2"
     ts-dedent "^2.0.0"
     util-deprecate "^1.0.2"
 
@@ -1730,6 +1774,19 @@
     prettier "^2.8.0"
     recast "^0.19.0"
     util "^0.12.4"
+
+"@storybook/components@7.0.0-beta.20":
+  version "7.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.0.0-beta.20.tgz#88b9a4cfab977fb48ed5c625fbd4b73fd276a824"
+  integrity sha512-pCQS9W0f1Xl+IZMUEf0/OVp8x0CdKXabV5So1uK47svalY6Fkn0zEslaDVl7akwmJQqUZWv3ISYGdTlDdVJUnw==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.20"
+    "@storybook/csf" next
+    "@storybook/global" "^5.0.0"
+    "@storybook/theming" "7.0.0-beta.20"
+    "@storybook/types" "7.0.0-beta.20"
+    memoizerific "^1.11.3"
+    util-deprecate "^1.0.2"
 
 "@storybook/components@7.0.0-beta.26":
   version "7.0.0-beta.26"
@@ -1999,6 +2056,27 @@
     core-js "^3.8.2"
     global "^4.4.0"
 
+"@storybook/manager-api@7.0.0-beta.20":
+  version "7.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-7.0.0-beta.20.tgz#1ade414a7e40ca1f80d8873d2fe53c187729c3f3"
+  integrity sha512-LBL/Rv7Ww1bphmPbUP3oP4tOOAPSV0blmxiLrM/FJuezTjOPQTjhoHI46TPLRjxP64C4X2acUnrWlHJACftCzQ==
+  dependencies:
+    "@storybook/channels" "7.0.0-beta.20"
+    "@storybook/client-logger" "7.0.0-beta.20"
+    "@storybook/core-events" "7.0.0-beta.20"
+    "@storybook/csf" next
+    "@storybook/global" "^5.0.0"
+    "@storybook/router" "7.0.0-beta.20"
+    "@storybook/theming" "7.0.0-beta.20"
+    "@storybook/types" "7.0.0-beta.20"
+    dequal "^2.0.2"
+    lodash "^4.17.21"
+    memoizerific "^1.11.3"
+    semver "^7.3.7"
+    store2 "^2.14.2"
+    telejson "^7.0.3"
+    ts-dedent "^2.0.0"
+
 "@storybook/manager-api@7.0.0-beta.26":
   version "7.0.0-beta.26"
   resolved "https://registry.yarnpkg.com/@storybook/manager-api/-/manager-api-7.0.0-beta.26.tgz#ddaf712f782366ff90e2b0f45cf7a77f739112bd"
@@ -2137,6 +2215,15 @@
     qs "^6.10.0"
     regenerator-runtime "^0.13.7"
 
+"@storybook/router@7.0.0-beta.20":
+  version "7.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/@storybook/router/-/router-7.0.0-beta.20.tgz#a21a7b1d739bc0546b8c59e94a0845111f97bc88"
+  integrity sha512-D19EIBzGUFhihgA2tJRh2hT4/d73D8tfQd1VJlJkHCJ1ORo1UR47wSudsAwVF8elq1n6jicnl69TE3m50wFiGg==
+  dependencies:
+    "@storybook/client-logger" "7.0.0-beta.20"
+    memoizerific "^1.11.3"
+    qs "^6.10.0"
+
 "@storybook/router@7.0.0-beta.26":
   version "7.0.0-beta.26"
   resolved "https://registry.yarnpkg.com/@storybook/router/-/router-7.0.0-beta.26.tgz#66f1ff8c4649975750c88c67af43e161a6749780"
@@ -2189,6 +2276,16 @@
     core-js "^3.8.2"
     memoizerific "^1.11.3"
     regenerator-runtime "^0.13.7"
+
+"@storybook/theming@7.0.0-beta.20":
+  version "7.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.0.0-beta.20.tgz#8fcf0fd7739dc9bed261f1ab5ecdfac2baa4fef2"
+  integrity sha512-XJukrCz7wsVQGczK0DN1ATxBlETEDZwjJJI8z/LDV52rJ4zb0PfrKCV4oXuX8fyIhq3pI4QjEKYB2bq3pUDcLA==
+  dependencies:
+    "@emotion/use-insertion-effect-with-fallbacks" "^1.0.0"
+    "@storybook/client-logger" "7.0.0-beta.20"
+    "@storybook/global" "^5.0.0"
+    memoizerific "^1.11.3"
 
 "@storybook/theming@7.0.0-beta.26":
   version "7.0.0-beta.26"

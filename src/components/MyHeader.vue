@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import MyButton from "./MyButton.vue";
+import MyButton from "@/components/MyButton/MyButton.vue"
 
 const props = defineProps({
   isLoggind: {
